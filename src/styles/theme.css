@@ -1,0 +1,63 @@
+:root {
+  /* Cinematic Color Palette */
+  --bg-primary: #0a0b0e;
+  --bg-surface: #12141a;
+  --bg-card: #161922;
+  --bg-card-hover: #1e2230;
+  --bg-overlay: rgba(10, 11, 14, 0.85);
+
+  --accent-red: #e50914;
+  --accent-red-hover: #f40612;
+  --accent-red-glow: rgba(229, 9, 20, 0.35);
+  --accent-burgundy: #8b0000;
+  --accent-gold: #d4af37;
+  --accent-gold-glow: rgba(212, 175, 55, 0.25);
+  --accent-amber: #f59e0b;
+
+  /* Tier Seat Colors */
+  --seat-silver: #94a3b8;
+  --seat-silver-bg: #1e293b;
+  --seat-gold: #f5c518;
+  --seat-gold-bg: #382c0b;
+  --seat-platinum: #e2e8f0;
+  --seat-platinum-bg: #2d3748;
+
+  --seat-available: #222634;
+  --seat-available-border: #3b4256;
+  --seat-selected: #e50914;
+  --seat-occupied: #1b1d24;
+  --seat-held: #f59e0b;
+
+  /* Typography */
+  --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-display: 'Outfit', var(--font-main);
+
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-accent: #e50914;
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-focus: rgba(229, 9, 20, 0.5);
+  --border-gold: rgba(212, 175, 55, 0.4);
+
+  /* Radius & Shadows */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 12px 36px rgba(0, 0, 0, 0.8);
+  --shadow-glow: 0 0 24px var(--accent-red-glow);
+  --shadow-gold-glow: 0 0 20px var(--accent-gold-glow);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
